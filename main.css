@@ -1,3 +1,36 @@
-body {
-  position: relative;
+:root {
+  --body-bg-color: #333333;
+  --nav-bg-color: #1a1a1a;
+  --header-color: #444444;
+  --link-color: #00ECFF;
 }
+body {
+  background: var(--body-bg-color);
+  color: var(--body-bg-color);
+}
+
+.bg-nav {
+  background-color: var(--nav-bg-color);
+}
+.site-header .navbar-nav .nav-link {
+  font-family:'Courier New';
+  color: var(--link-color);
+}
+
+.navboxes .active{
+    background-color: var(--link-color);
+	border-radius:.25rem;
+	color: var(--nav-bg-color);
+}
+.selected{
+	color: var(--nav-bg-color);
+}
+.links{
+	color: var(--link-color);
+}
+.links:hover{
+	color: #BBBBBB;
+	
+}
+
+
