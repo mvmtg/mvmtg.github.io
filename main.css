@@ -1,8 +1,9 @@
 :root {
-  --body-bg-color: #333333;
-  --nav-bg-color: #1a1a1a;
-  --header-color: #444444;
+  --body-bg-color: #444444;
+  --nav-bg-color: #292929;
+  --header-color: #555555;
   --link-color: #00ECFF;
+  --dark-color: #D3D3D3;
 }
 body {
   background: var(--body-bg-color);
@@ -32,10 +33,20 @@ body {
 	color: #BBBBBB;
 	
 }
+.darkblue{
+	color: var(--dark-color);
+	
+}
+.colorblue{
+	color: var(--link-color);
+}
+
+#darkblue{
+	background-color: var(--dark-color);
+	width: 800px;
+}
 
 #foot{
 	background-color: var(--nav-bg-color);
 	
 }
-
-
